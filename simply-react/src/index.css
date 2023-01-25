@@ -33,7 +33,7 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: 0.1em;
-  background: var(--darker);
+  background: var(--dark);
   color: var(--light);
   font-family: 'Open Sans', sans-serif;
 }
@@ -180,8 +180,7 @@ header img {
   top: 0;
   left: 0;
   height: auto;
-  filter: sepia(1) opacity(60%);
-  opacity: 0.5;
+ /* filter: contrast(200%); */
 }
 
 nav {
@@ -219,6 +218,7 @@ footer a {
   opacity: .5;
   margin: 10px 20px;
   transition: all .3s ease-in-out;
+
 }
 
 footer a:hover {
@@ -352,7 +352,7 @@ textarea {
 }
 
 .project-text a:hover {
-  color: var(--darker);
+  color: var(--);
 }
 
 .navActive {
