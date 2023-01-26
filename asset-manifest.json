@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/simply-react/static/css/main.dbc3bd6c.css",
+    "main.js": "/simply-react/static/js/main.95977709.js",
+    "static/media/Password-Generator.jpg": "/simply-react/static/media/Password-Generator.f70b4d0add82cdb6ffc5.jpg",
+    "static/media/Weather-App.jpg": "/simply-react/static/media/Weather-App.6d1b0ea61e8033a5d565.jpg",
+    "static/media/Pokemon-Fusion.jpg": "/simply-react/static/media/Pokemon-Fusion.beb6cfe040b6c05c8233.jpg",
+    "static/media/Note-Taker.jpg": "/simply-react/static/media/Note-Taker.59168cf2edaeae61dd34.jpg",
+    "static/media/Java-Quiz.jpg": "/simply-react/static/media/Java-Quiz.bd6aefd301c9917e4731.jpg",
+    "static/media/Bits-Please.jpg": "/simply-react/static/media/Bits-Please.d9620484e58da01641ee.jpg",
+    "static/media/cover-image.jpg": "/simply-react/static/media/cover-image.64d74aceaf780654d0e1.jpg",
+    "index.html": "/simply-react/index.html",
+    "main.dbc3bd6c.css.map": "/simply-react/static/css/main.dbc3bd6c.css.map",
+    "main.95977709.js.map": "/simply-react/static/js/main.95977709.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dbc3bd6c.css",
+    "static/js/main.95977709.js"
+  ]
+}
