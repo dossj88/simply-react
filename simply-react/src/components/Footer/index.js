@@ -1,30 +1,35 @@
 import React from 'react';
+// Import Icons for footer buttons
+import { AiOutlineGithub } from 'react-icons/ai';
+import { BsLinkedin } from 'react-icons/bs';
+import { BsStackOverflow } from 'react-icons/bs';
 
 function Footer() {
 
   // Replace links with social media profiles
   const icons = [
     {
-      name: "fab fa-github",
+      name: AiOutlineGithub,
       link: "https://github.com/"
     },
     {
-      name: "fab fa-linkedin",
+      name: BsLinkedin,
       link: "https://www.linkedin.com/"
     },
     {
-      name: "fab fa-stack-overflow",
+      name: BsStackOverflow,
       link: "https://stackoverflow.com/"
     }
   ]
 
   return (
     <footer className="flex-row px-1">
-      {icons.map(icon =>
-      (
-        <a href={icon.link} key={icon.name} target="_blank" rel="noopener noreferrer"><i className={icon.name}></i></a>
-      )
-        )}
+      {icons.map((icon,index) => {
+        let Icon = icon.name;
+        console.log(Icon);
+        return (<a href= {icon.link} target="_blank" rel="noreferrer" key={index}><Icon /></a>);
+  
+      })}
     </footer>
   );
 }
