@@ -10,15 +10,15 @@ function Footer() {
   const icons = [
     {
       name: AiOutlineGithub,
-      link: "https://github.com/"
+      link: "https://github.com/dossj88"
     },
     {
       name: BsLinkedin,
-      link: "https://www.linkedin.com/"
+      link: "https://www.linkedin.com/in/jason-doss-126a64248/"
     },
     {
       name: BsStackOverflow,
-      link: "https://stackoverflow.com/"
+      link: "https://stackoverflow.com/users/21051823/jason-doss"
     }
   ]
 
